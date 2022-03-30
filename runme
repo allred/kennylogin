@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ..
+export FLASK_APP=kennylogin
+export FLASK_DEBUG=1
+#export SQLALCHEMY_TRACK_MODIFICATIONS=False
+flask run
